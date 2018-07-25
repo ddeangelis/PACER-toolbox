@@ -1,0 +1,16 @@
+1. Data filtering - checkboxes for all potential filter criteria, then dynamic UI. Example: Filter based on market cap with 2 sliders for min/max. 
+2. Print the filtered table
+3. improve graphics & histogram. Do auto-bin count.
+4. Interactive ancova/anova and linear models (lm) with R^2 readout
+	# Simple Linear regression
+	lm(CPU_results[2,-1] ~ CPU_results[1,-1])
+	lm(as.numeric(CPU_results[2,-1]) ~ as.numeric(CPU_results[1,-1]))
+
+	# Helpful functions
+	coefficients()
+	summary()
+
+5. Have tab that shows contents from DESCRIPTION and Readme.md
+6. Make better Data Prep and Analysis panel labels.
+7. Empty results in the search yield errors. need to fix this.
+8. Is it necessary to duplicate code for plaintiff vs. defendant? Can't we just set a value based on active tab?
