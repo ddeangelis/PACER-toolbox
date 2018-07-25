@@ -31,7 +31,7 @@ We can then plug the augmented data into an interactive web dashboard built on [
 
 This dashboard is currently hosted at: https://tycherisk.co/ttr-demo
 
-###Dashboard Screenshots
+### Dashboard Screenshots
 
 #### Data Exploration Dashboard
 ![alt text](ttr-shiny/ttr-dashboard_screenshot_1.png "Data exploration dashboard")
